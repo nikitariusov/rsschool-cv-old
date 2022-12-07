@@ -50,3 +50,41 @@ def pars_info(html_data):
         mail = card.find('a', target="_blank", rel=None)
         site = card.find('a', rel="nofollow", target="_blank")
 ```
+
+
+### **JS** ###
+```
+const birdBlock = document.createElement('div')
+birdBlock.className = 'bird'
+main.appendChild(birdBlock)
+
+function getRandomBird(category) {
+  if (birds[category]) {
+    const birdSpecies = birds[category]
+    return birdSpecies[Math.floor(Math.random() * birdSpecies.length)]
+  } else console.log('ERROR (getRandomBird): not found this category of birds');
+}
+```
+
+
+## **Experience**
+
+1. [Software for collecting data about companies](https://github.com/nikitariusov/Company_data_parser)
+2. [Content generator from shabolne and data table](https://github.com/nikitariusov/content_creator)
+3. [Program for collecting photos from xml base by article and writing them to Excel](https://github.com/nikitariusov/find_photo_from_geyser)
+4. [RS School CV](https://nikitariusov.github.io/rsschool-cv-Stage-0/)
+
+
+## **Education**
+
+* **University**
+    * Dnipro, NATIONAL METALLURGICAL ACADEMY OF UKRAINE, Department of metallurgical production machines and units
+* **Courses**
+    * Cursera: Fundamentals of Python Programming
+
+
+## **English**
+
+**Intermediate (B1)**
+
+[github]:[https://github.com/nikitariusov]
