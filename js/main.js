@@ -5,6 +5,8 @@ $(function() {
     dots: true,
     slidesToShow: 4,
     slidesToScroll: 2,
+    autoplay: true,
+    autoplaySpeed: 1900,
     responsive: [
       {
         breakpoint: 1200,
