@@ -130,9 +130,9 @@ li {
 }
 
 .photo img {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .contacts {
@@ -418,11 +418,11 @@ li {
     width: 90%;
   }
 
-  .photo img {
+  /* .photo img {
     width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
+    height: 100%;
+    border-radius: 15;
+  } */
 
   @media (max-width: 525px) {
     .twoColumnsContent {
